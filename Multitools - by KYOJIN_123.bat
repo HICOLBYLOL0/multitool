@@ -19,7 +19,7 @@ echo [38;2;255;255;0m        ║[0m
 echo [38;2;255;255;0m        ╚╦═══(4) Did you say that to me?
 echo [38;2;255;255;0m         ║[0m  
 set /p input=.%BS% [38;2;255;255;0m        ╚══════^>[0m  
-if /I %input% EQU 1 start Ip Tools.bat
+if /I %input% EQU 1 start 
 if /I %input% EQU 2 start snapchat.mp4
 if /I %input% EQU 3 start All..mp4
 if /I %input% EQU 4 start nien1..mp4
